@@ -8,7 +8,7 @@ rm -rf prebuilts/clang/host/linux-x86
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs
 
 # Clone local_manifests repository
-git clone https://github.com/cat/local_manifests.git --depth 1 -b x1s .repo/local_manifests
+git clone https://github.com/friendlycatt/local_manifests.git --depth 1 -b x1s .repo/local_manifests
 
 
 # Sync the repositories  
