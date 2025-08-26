@@ -1,10 +1,5 @@
 #!/bin/bash
 
-
-<remote name="gthub"
-           fetch="https://github.com/"
-           />
-
 # Remove Local Manifests
 rm -rf .repo/local_manifests/ 
 rm -rf prebuilts/clang/host/linux-x86
