@@ -3,6 +3,7 @@
 # Remove Local Manifests
 rm -rf .repo/local_manifests/ 
 rm -rf prebuilts/clang/host/linux-x86
+rm -rf universal9830-common
 
 # Init Rom Manifest
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs
